@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <clipPath id="r"><rect width="512" height="512" rx="112"/></clipPath>
+    <clipPath id="a"><polygon points="0,0 512,0 0,512"/></clipPath>
+    <clipPath id="b"><polygon points="512,0 512,512 0,512"/></clipPath>
+    <clipPath id="in"><path d="M136 392V236a120 120 0 0 1 240 0V392z"/></clipPath>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r="2" fill="#2B2B2B"/></pattern>
+  </defs>
+  <g clip-path="url(#r)">
+    <g clip-path="url(#a)">
+      <rect width="512" height="512" fill="#0B0B0B"/><rect width="512" height="512" fill="url(#dots)"/>
+      <path d="M136 392V236a120 120 0 0 1 240 0V392" fill="none" stroke="#FFF" stroke-width="14" stroke-linejoin="round"/>
+      <g clip-path="url(#in)">
+        <polyline points="136,392 210,306 262,366 322,284 376,392" fill="none" stroke="#FFF" stroke-width="8" stroke-linejoin="round"/>
+        <polyline points="216,392 290,330 376,392" fill="none" stroke="#FFF" stroke-width="7" stroke-linecap="round" stroke-dasharray="0.1 14"/>
+        <polyline points="136,340 190,270 240,320 290,250 340,300" fill="none" stroke="#FFF" stroke-width="8" stroke-linejoin="round"/>
+        <polyline points="136,392 176,346 216,392" fill="none" stroke="#FFF" stroke-width="7" stroke-linecap="round" stroke-dasharray="0.1 14"/>
+      </g>
+      <rect x="96" y="392" width="320" height="10" fill="#FFF"/>
+      <circle cx="290" cy="222" r="26" fill="#D71921"/>
+      <circle cx="76" cy="76" r="9" fill="#D71921"/>
+    </g>
+    <g clip-path="url(#b)">
+      <rect width="512" height="512" fill="#E8DEF8"/>
+      <circle cx="440" cy="440" r="96" fill="#D0BCFF" opacity=".55"/>
+      <path d="M136 392V236a120 120 0 0 1 240 0V392z" fill="#F6EDFF"/>
+      <g clip-path="url(#in)">
+        <polygon points="136,392 210,306 262,366 322,284 376,392" fill="#D0BCFF"/>
+        <polygon points="216,392 290,330 376,392" fill="#6750A4"/>
+      </g>
+      <path d="M136 392V236a120 120 0 0 1 240 0V392" fill="none" stroke="#6750A4" stroke-width="24" stroke-linejoin="round"/>
+      <rect x="96" y="386" width="320" height="26" rx="13" fill="#6750A4"/>
+      <circle cx="290" cy="222" r="26" fill="#7D5260"/>
+    </g>
+    <line x1="512" y1="0" x2="0" y2="512" stroke="#FFF" stroke-width="3"/>
+  </g>
+</svg>
